@@ -98,31 +98,35 @@ main {
   line-height: 2.9rem;
   text-align: center;
   color: #34355b;
+  margin-bottom: 20px;
 }
 
-.screen2 img {
-  margin: 4.3rem 0 4.3rem;
+.screen2 img{
+    margin: 4rem;
 }
 
 .screen2 p {
   font-family: "Dancing Script", cursive;
- 
   font-weight: 400;
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 2.9rem;
   text-align: center;
   display: flex;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem;
   color: #000;
-  width: 29.3rem;
-  height: 12rem;
-
+  width: 28rem;
+  height: 10rem;
   background: #E4EDF1;
   box-shadow: 0.2rem 0.2rem 0.2rem rgba(85, 85, 85, 0.5);
-
   animation: downtop 2s 10ms backwards;
+  border-radius: 10px;
+
+transition: all 0.2s;
   /* transition: all 200ms ease-in-out; */
+}
+.screen2 p:hover{
+    transform: scale(1.1);
 }
 
 button{
@@ -140,4 +144,25 @@ font-family: "DM Sans", sans-serif;
 button:hover{
     background-color: #e6a141 ;
     transform: scale(1.1);
+}
+@keyframes downtop{
+    0%{
+        opacity: 0;
+        transform: translateY(10rem);
+        width: 0%;
+        font-size: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 720px) {
+   
+    .screen1, .screen2{
+        width: 32rem;
+
+        margin: 4.8rem 0;
+    }
 }
