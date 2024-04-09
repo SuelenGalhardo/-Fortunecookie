@@ -5,13 +5,15 @@ const btnReset = document.querySelector('.btnReset');
 const phraseOpenCookie = document.querySelector('.phraseOpenCookie');
 
 const phrasesList = [
-  "Concéntrate en lo que quieres lograr y ganaras. No lo olvides.",
-  "El cielo sera tu limite, pues grandes acontecimientos te sucederán.",
-  "Te sentirás feliz como un niño y veras al mundo con sus ojos.",
-  "Vivirás tu vejez con comodidades y riquezas materiales.",
-  "Confía en tu suerte, que es mucha y te rodeara de prosperidad.",
-  "Confía en tu suerte, que es mucha y te rodeara de prosperidad.",
-  "Hoy es el momento de explorar: no temas."
+  "Error 404: Fortuna no encontrada",
+  "Tomate el tiempo para disfrutar el presente",
+  "Vuelve después… Estoy durmiendo (Sí, las galletas necesitan dormir también).",
+  "Puedo confiar en ti para guardar un secreto?",
+  "Ignora la galleta anterior.",
+  "El fin se acerca, y es TU culpa.",
+  "Ya era hora de que saliera de la galleta.",
+  "¿Algún tipo de alienígena se te aparecerá próximamente!.",
+  "!Auxilio, soy rehen de una panadería de galletas de la fortuna!."
 ];
 
 btnCookie.addEventListener('click', showPhraseOpenedCookie);
