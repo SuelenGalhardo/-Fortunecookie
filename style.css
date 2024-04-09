@@ -8,6 +8,7 @@
 }
 
 body {
+  font-size: 1.6rem;
   background: linear-gradient(45deg, #f8f530 0%, rgb(239, 241, 225) 100%);
   height: 100vh;
   display: flex;
@@ -15,13 +16,15 @@ body {
   align-items: center;
   overflow-x: hidden;
 }
-
+body, button {
+  font-family: 'DM Sans', sans-serif;
+}
 .hide {
-  display: none;
+  display: none !important;
 }
 main {
   display: flex;
-  padding: 48px 64px;
+  width: 45rem;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
@@ -30,9 +33,10 @@ main {
 }
 
 .screen1 {
-  width: 300px;
-  height: 312px;
+  width: 280px;
+  height: 300px;
   flex-shrink: 0;
+    cursor: pointer;
 }
 
 .screen1 h1 {
@@ -41,14 +45,10 @@ main {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: 700;
+  margin-top: 5px;
 }
 
-.screen1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 .screen1 p {
   color: #34355b;
   text-align: center;
@@ -59,8 +59,8 @@ main {
 }
 .screen1 img {
   margin-top: 26px;
-  width: 30rem;
-  height: 20rem;
+  width: 22rem;
+  height: 18rem;
 }
 
 .screen1 img:hover {
@@ -85,24 +85,25 @@ main {
 }
 /*------------------------------------SCREEN 2---------------------------------*/
 .screen2 {
-  height: 56.4rem;
+  height: 52rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 17px;
+  cursor: pointer;
 }
 .screen2 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   line-height: 2.9rem;
   text-align: center;
   color: #34355b;
-  margin-bottom: 20px;
+  margin: 20px 20px;
 }
 
 .screen2 img{
-    margin: 4rem;
+    margin-top: 0.625rem ;
 }
 
 .screen2 p {

@@ -1,8 +1,7 @@
 # -Fortunecookie
 
 🚀 Tecnologias
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
+Este proyecto fue desarrollado con las siguientes tecnologías:
 HTML e CSS
 JavaScript
 Git e Github
@@ -10,7 +9,7 @@ Git e Github
 
 Figma
 💻 Projeto
-O Biscoito da sorte é uma aplicação que ao clicar no biscoito gera uma frase motivacional.
+Fortune Cookie es una aplicación que al hacer clic en la cookie genera una frase motivadora.
 
 🔖 Layout
 Figma: https://www.figma.com/community/file/1182751789348533739
