@@ -167,3 +167,53 @@ button:hover{
         margin: 4.8rem 0;
     }
 }
+
+
+
+@media (max-width:768px) {
+  main{
+    width: 28rem;
+   
+
+  }
+ .screen1 h1{
+font-size: 18px;
+
+ }
+ .screen1 p{
+  font-size: 12px;
+
+ }
+ .screen1 img{
+margin-left: 18px;
+margin-top: 38px;
+width: 26rem ;
+
+}
+.screen2{
+  width: 28rem;
+  gap: 32px;
+}
+
+
+.screen2 h1{
+  font-size: 18px;
+}
+.screen2 p{
+  display: flex;
+align-items: center;
+  width: 20rem;
+  height: 8rem;
+  font-size: 1.5rem;
+  padding: 2rem;
+ 
+}
+.screen2 img{
+  height: 14rem;
+}
+.screen2 button{
+  padding: 14px;
+  margin-top: 25px;
+}
+
+}
